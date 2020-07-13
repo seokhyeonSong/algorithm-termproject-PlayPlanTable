@@ -1,0 +1,20 @@
+1. 1.zip을 import합니다
+2. PPT 오른쪽 누르고 property를 누르고 java build path에 들어간다음 
+library에 들어가서 add external jar를 눌러서 mysql-connector과 image.zip을 add
+하고 apply합니다.
+3. images 폴더를 바탕화면에 둡니다
+4. tree.WAV파일을 C드라이브 안에 둡니다
+5. mysql에 들어가서 ppt_command.txt 내용을 복사해서 붙혀넣기 합니다.
+6. Food_Result에 들어간다음 
+"C:\\Users\\송석현\\Desktop\\image\\image\\" + food + ".jpg" 을 컨트롤 F로 찾고
+송석현 부분을 컴퓨터의 user 이름으로 바꾸어 줍니다.
+7. 이제 start를 눌러서 시작합니다.
+
+program description
+start를 실행합니다.
+start버튼을 누르고 자신이 놀 수 있는 시간을 입력합니다.
+자신이 놀려고 하는 장소? 에 대해 우선순위를 지정해줍니다. 안 갈것이라면 X를 합니다.
+자신이 그 장소에서 얼마나 놀 건지 입력합니다.
+식당 추천이 나올 경우 자신의 음식 선호도를 입력해서 결과를 봅니다.
+다른 음식을 추천받고 싶다면 retry버튼을 누르면 같은 선호도에 대해 다른 음식을 보여줍니다.
+만약 정보를 받는 단계가 끝나면 고른 노드에 따라 결과값이 달라져서 마지막 창이 나옵니다.
